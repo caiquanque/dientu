@@ -1,0 +1,121 @@
+.chimpbridge.wrap .leftcol, .chimpbridge.wrap .rightcol {
+	padding: 0 10px;
+}
+.chimpbridge.wrap .leftcol {
+	float: left;
+	width: 60%;
+}
+
+.chimpbridge.wrap .rightcol {
+	float: right;
+	width: 25%;
+	border-left: 1px solid #ccc;
+}
+
+.chimpbridge-cta {
+	padding: 10px;
+	border: 2px dashed red;
+	width: 100%;
+}
+
+div.updated.chimpbridge-activation {
+	padding: 0;
+	border: 0;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	overflow: hidden;
+}
+
+.chimpbridge-activation .clear {
+	line-height: 0;
+	height: 0;
+}
+
+.chimpbridge-activation-primary {
+	background: #2e3f52;
+	padding: 13px 15px 10px;
+	border: 0;
+	color: white;
+	text-shadow: 0 1px 1px black;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	line-height: 0;
+}
+
+.chimpbridge-activation-title {
+	margin: 0 0 5px -2px;
+}
+
+.chimpbridge-activation-logo {
+	width: 367px;
+	float: left;
+	margin-right: 20px;
+}
+
+.chimpbridge-activation-logo img {
+	width: 367px;
+	margin: -1px 0 0 -3px;
+}
+
+.chimpbridge-activation-scroll-wrapper {
+	overflow-x: scroll;
+	border-radius: 3px;
+	border-bottom: 2px solid #202830;
+}
+
+.chimpbridge-activation-scroll {
+	padding: 8px 0 8px 8px;
+	background: white;
+	line-height: 0;
+}
+
+.chimpbridge-activation-lesson {
+	display: block;
+	overflow: hidden;
+	width: 220px;
+	height: 120px;
+	margin: 0 8px 0 0;
+	float: left;
+	background: black;
+	color: white;
+	text-decoration: none;
+	line-height: 1;
+	border-radius: 3px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.chimpbridge-activation-lesson-overlay {
+	padding: 8px 10px;
+	background: black;
+	background: rgba( 0, 0, 0, 0.75 );
+	line-height: 1.3;
+}
+
+.chimpbridge-activation-secondary {
+	background: white;
+	padding: 14px;
+}
+
+.chimpbridge-activation-code {
+	min-height: 28px;
+}
+
+.chimpbridge-activation-code label {
+	vertical-align: top;
+	margin: 0 4px 0 0;
+	line-height: 28px;
+	font-weight: bold;
+}
+
+.chimpbridge-activation-code-input {
+	height: 28px;
+	line-height: 20px;
+	margin-top: 0px;
+	font-family: monospace;
+	min-width: 200px;
+}
+
+.chimpbridge-activation-dismiss {
+	float: right;
+}
