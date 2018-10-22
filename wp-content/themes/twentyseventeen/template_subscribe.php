@@ -9,7 +9,7 @@ if (is_user_logged_in()) :
     global $current_user;
     $role = $current_user->roles[0];
 
-    if ( ROLE_SUBSCRIBER == $role ): ?>
+    if ( ROLE_SUBSCRIBER === $role ): ?>
         <form method="post">
             <input type="submit" name="btn-subscribe">
         </form>
@@ -30,4 +30,3 @@ if ( $btn_subscribe ) {
 }
 
 get_footer(); ?>
-

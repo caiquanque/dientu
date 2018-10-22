@@ -84,7 +84,7 @@ function save_posts ()
 }
 
 function filter_title_ne($output){
-    return 'ABC_'.$output;
+    return $output;
 }
 add_filter('the_title','filter_title_ne');
 
