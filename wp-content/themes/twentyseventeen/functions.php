@@ -15,6 +15,7 @@
 require_once(get_template_directory() . '/inc/custom_post_type_animals_function.php');
 require_once(ABSPATH . 'wp-content/themes/twentyseventeen/inc/const.php');
 require_once(ABSPATH . 'wp-content/themes/twentyseventeen/inc/custom_user_subscribe.php');
+//require_once(ABSPATH . 'wp-content/themes/twentyseventeen/inc/custom_post_type_video.php');
 
 if (version_compare($GLOBALS['wp_version'], '4.7-alpha', '<')) {
     require get_template_directory() . '/inc/back-compat.php';
@@ -693,4 +694,3 @@ require get_parent_theme_file_path('/inc/customizer.php');
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path('/inc/icon-functions.php');
-
